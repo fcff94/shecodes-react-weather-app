@@ -1,17 +1,21 @@
 import React from "react";
 import SearchBar from "../../molecules/SearchBar/SearchBar";
+import Text from "../../atoms/Text/Text";
+import "./CardLeft.css";
 
 function CardLeft() {
   return (
-    <div className="card-column card-column-left">
-      <div className="card-column-info">
+    <div className="col-12 col-lg-4 card-left card-column">
+      <div className="card-content">
         <SearchBar />
         <div className="weather-info">
-          <h6 id="date">Monday, January 15th, 20:35</h6>
-          <h2 className="mb-0">
+          <Text type="p" fontSizeClass="medium" colorClass="white" value="Monday, January 15th, 20:35"/>
+          {/* <h6 id="date">Monday, January 15th, 20:35</h6> */}
+          {/* <h2 className="mb-0">
             <span id="city">Lisbon, </span>
             <span id="country">PT</span>
-          </h2>
+          </h2> */}
+          <Text type="h2" fontSizeClass="x-large" colorClass="white" value="Lisbon, PT"/>
           <div className="d-flex align-items-center justify-content-evenly w-100">
             <span className="icon-weather icon-weather-left" id="icon-weather">
               <i className="bi bi-cloud-lightning-rain-fill"></i>

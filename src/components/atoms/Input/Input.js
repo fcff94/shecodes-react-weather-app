@@ -1,9 +1,10 @@
 import React from "react";
+import "./Input.css";
 
 function Input(props) {
     return <input
     type={props.type}
-    className={`form-control ${props.customClass || ''}`}
+    className={`inputComponent form-control ${props.customClass || ''}`}
     placeholder={props.placeholder}
     onChange={props.onChange}
   />
