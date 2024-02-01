@@ -13,6 +13,11 @@
 	--lightgrey: #f8f8f8;
 	--grey: #bababa;
 	--darkgrey: #9ba6a5;
+  
+	--turquoise-opacity-low: #bbded652;
+	--turquoise-opacity-high: #bbded678;
+	/* --turquoise-opacity-high: #bbded66e; */
+  
 
 	/* Button border color */
 	--border-white: #dee2e6;
@@ -24,6 +29,16 @@
 body {
 	background-color: #e6fdfb !important;
 	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
 }
 
 /* .weather-container {
