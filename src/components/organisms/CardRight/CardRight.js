@@ -29,7 +29,7 @@ function CardRight() {
           id="pills-current-city"
           role="tabpanel"
           aria-labelledby="pills-current-city"
-          tabindex="0"
+          tabIndex="0"
         >
           <div className="forecast-wrapper">
             <DailyForecast />
