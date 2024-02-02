@@ -54,29 +54,4 @@
     font-size: 18px;
     margin-right: -5px;
   }
-  /* CL - WEATHER EXTRAS */
-  .card-content .weather-extra {
-    margin: 25px 0 15px 0;
-  }
   
-  .card-content .weather-extra .weather-extra-item {
-    display: flex;
-    align-items: center;
-    font-weight: 600;
-    font-size: 13px;
-  }
-  
-  .card-content .weather-extra .bi {
-    font-size: 20px;
-    color: var(--pink);
-    margin-right: 5px;
-  }
-  
-  .card-content .last-update {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--lightturquoise);
-    font-size: 11px;
-  }
-  /**********************************************************/

@@ -5,20 +5,20 @@ import Text from "../../atoms/Text/Text";
 import Button from "../../atoms/Button/Button";
 
 export default function DisplayWeather(props) {
-    function convertUnits() {}
-
-    const temperatureValue = (<Text type="h1" value={17} fontSize="45" fontWeightClass="w500" />);
+	const temperatureValue = (<Text type="h1" value={17} fontSize="45" fontWeightClass="w500" />);
     const temperatureSymbol = (<Text type="h1" value={`\u00a0${"ºC"}`} fontSize="45" fontWeightClass="w600" />);
     const temperatureDisplay = (<>{temperatureValue}{temperatureSymbol}</>);
 	
+    function convertUnits() {}
+
     return (
 		<div className="row mt-5 align-center justify-center">
 			<div className="col-5 text-center ps-4">
 				<AnimatedIcon
 					icon="CLEAR_DAY"
 					color="#fcffc1"
-					size="115"
-					animate="true"
+					size={115}
+					animate={true}
 				/>
 			</div>
 			<div className="col-6 pe-4">

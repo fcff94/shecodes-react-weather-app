@@ -22,14 +22,18 @@
 }
 
 .large {
-	font-size: 26px;
+	font-size: 20px;
 }
 
 .x-large {
-	font-size: 30px;
+	font-size: 26px;
 }
 
 .xx-large {
+	font-size: 30px;
+}
+
+.xxx-large {
 	font-size: 36px;
 }
 
@@ -49,6 +53,7 @@
 .w700{
     font-weight: 700;
 }
+
 /* Colors  */
 .white {
 	color: var(--white);
@@ -60,6 +65,10 @@
 
 .turquoise {
 	color: var(--turquoise);
+}
+
+.light-turquoise {
+	color: var(--lightturquoise);
 }
 
 /* Add more styles as needed */

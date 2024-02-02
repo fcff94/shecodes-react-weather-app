@@ -1,0 +1,13 @@
+.customIcon {
+    &.pink {
+        color: var(--pink);
+    }
+
+    &.white {
+        color: var(--white);
+    }
+
+    &.light-turquoise {
+        color: var(--lightturquoise);
+    }
+}

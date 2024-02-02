@@ -41,6 +41,16 @@ body {
   justify-content: center;
 }
 
+.justify-start {
+	display: flex;
+	justify-content: flex-start;
+  }
+
+  .justify-end {
+	display: flex;
+	justify-content: flex-end;
+  }
+
 /* .weather-container {
   display: flex;
   flex-direction: column;
@@ -258,3 +268,12 @@ body {
 	font-size: 14px;
 	color: var(--turquoise);
 }
+
+
+.card-content .last-update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--lightturquoise);
+    font-size: 11px;
+  }
