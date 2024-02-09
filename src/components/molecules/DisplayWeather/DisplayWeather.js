@@ -12,6 +12,7 @@ export default function DisplayWeather(props) {
     function convertUnits() {}
 
     return (
+		<div>
 		<div className="row mt-5 align-center justify-center">
 			<div className="col-5 text-center ps-4">
 				<AnimatedIcon
@@ -19,7 +20,7 @@ export default function DisplayWeather(props) {
 					color="#fcffc1"
 					size={115}
 					animate={true}
-				/>
+					/>
 			</div>
 			<div className="col-6 pe-4">
 				<div className="d-flex justify-content-end mb-2">
@@ -28,5 +29,7 @@ export default function DisplayWeather(props) {
 				<Text type="h3" value="Clear Day" fontWeightClass="w400" customClass="d-flex justify-content-end" onClick={convertUnits} />
 			</div>
 		</div>
+					</div>
+	
 	);
 }
