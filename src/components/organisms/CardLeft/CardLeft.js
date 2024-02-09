@@ -5,6 +5,7 @@ import DisplayWeather from "../../molecules/DisplayWeather/DisplayWeather";
 import DisplayWeatherExtras from "../../molecules/DisplayWeatherExtras/DisplayWeatherExtras";
 import MinMaxTemperature from "../../molecules/MinMaxTemperature/MinMaxTemperature";
 import "./CardLeft.css";
+import Text from "../../atoms/Text/Text";
 
 export default function CardLeft() {
 	return (
@@ -16,9 +17,12 @@ export default function CardLeft() {
 				<MinMaxTemperature/>
 				<DisplayWeatherExtras />
 				
-				<div className="last-update">
-					<p id="last-update">Last updated: Monday 16:54</p>
-				</div>
+				<Text 
+				type="p"
+				customClass="my-3 justify-center"
+				fontSizeClass="x-small"
+				colorClass="light-turquoise"
+				value="Last updated: Monday 16:54"/>
 			</div>
 		</div>
 	);

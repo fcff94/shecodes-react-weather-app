@@ -1,60 +1,19 @@
 /* CARD LEFT */
 .card-right {
-    background-color: white;
-    border-radius: 0 0 var(--card-border-radius) var(--card-border-radius);
+	background-color: white;
+	border-radius: 0 0 var(--card-border-radius) var(--card-border-radius);
 
-    nav {
-        margin-top: -10px;
-      }
+	nav {
+		margin-top: -10px;
+	}
+
+	.nav-tabs {
+		border-bottom: none !important;
+	}
 }
 
 @media (min-width: 992px) {
-    .card-right {
-        border-radius: 0 var(--card-border-radius) var(--card-border-radius) 0;
-    }
-}
-
-
-
-/* CR - TABS */
-.nav-tabs .nav-link,
-.nav-tabs .nav-link.active {
-  display: flex;
-  align-items: center;
-  background-color: var(--white);
-  color: var(--turquoise);
-  font-weight: 600;
-}
-.nav-tabs {
-  border-bottom: none !important;
-}
-
-.nav-tabs .nav-link {
-  border-width: 0 0 2px 0 !important;
-  border-color: transparent !important;
-  border-style: solid !important;
-  margin-bottom: 0 !important;
-  border-radius: 0 !important;
-  color: var(--grey) !important;
-}
-
-.nav-tabs .nav-link.active {
-  border-color: var(--turquoise) !important;
-}
-
-.nav-tabs .nav-link.active {
-  color: var(--turquoise) !important;
-}
-
-.nav-tabs .nav-link .bi-star-fill {
-  color: var(--darkyellow);
-  font-size: 12px;
-  margin-right: 5px;
-}
-
-.nav-tabs .nav-link .bi-x {
-  color: var(--grey);
-  height: 19px;
-  line-height: 19px;
-  /* font-size: 12px; */
+	.card-right {
+		border-radius: 0 var(--card-border-radius) var(--card-border-radius) 0;
+	}
 }
