@@ -1,4 +1,4 @@
-import MainCard from "./components/templates/mainCard/MainCard";
+import MainCard from "./components/templates/MainCard/MainCard";
 import "./styles.css";
 
 
