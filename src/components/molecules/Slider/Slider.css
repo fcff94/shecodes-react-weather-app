@@ -1,0 +1,54 @@
+.slider-wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 4px;
+
+	/* SLIDER CONTAINER  */
+	.slider-container {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		overflow-x: scroll;
+		position: relative;
+		scroll-behavior: smooth;
+		scroll-snap-type: x mandatory;
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+
+		/* Hide scrollbar for Chrome, Safari and Opera */
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+
+	/* ARROW BUTTONS LEFT & RIGHT */
+	button.btn-scroll-left,
+	button.btn-scroll-right {
+		background-color: transparent;
+		border: none;
+		outline: 0;
+		box-shadow: none;
+		color: var(--grey);
+		font-size: 18px;
+	}
+
+	button.btn-scroll-left {
+		padding-right: 10px;
+	}
+
+	button.btn-scroll-right {
+		padding-left: 10px;
+	}
+
+	button.btn-scroll-left .bi::before,
+	button.btn-scroll-left [class*=" bi-"]::before,
+	button.btn-scroll-right .bi::before,
+	button.btn-scroll-right [class*=" bi-"]::before {
+		font-weight: 600 !important;
+	}
+}

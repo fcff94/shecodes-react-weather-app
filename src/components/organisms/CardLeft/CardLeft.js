@@ -19,9 +19,7 @@ export default function CardLeft() {
 				
 				<Text 
 				type="p"
-				customClass="my-3 justify-center"
-				fontSizeClass="x-small"
-				colorClass="light-turquoise"
+				customClass="my-3 justify-center x-small light-turquoise"
 				value="Last updated: Monday 16:54"/>
 			</div>
 		</div>

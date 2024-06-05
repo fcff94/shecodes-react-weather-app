@@ -1,0 +1,5 @@
+.card-box {
+	background-color: var(--lightgrey);
+	border-radius: 10px;
+	box-shadow: 2px 3px 3px 1px rgb(220 220 220);
+}

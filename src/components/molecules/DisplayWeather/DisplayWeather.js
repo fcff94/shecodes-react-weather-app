@@ -6,14 +6,14 @@ import Button from "../../atoms/Button/Button";
 
 export default function DisplayWeather(props) {
 	const temperatureValue = (
-		<Text type="h1" value={17} fontSize="45" fontWeightClass="w500" />
+		<Text type="h1" customClass="w500" value={17} fontSize="45"/>
 	);
 	const temperatureSymbol = (
 		<Text
 			type="h1"
 			value={`\u00a0${"ºC"}`}
+			customClass="w600"
 			fontSize="45"
-			fontWeightClass="w600"
 		/>
 	);
 	const temperatureDisplay = (
