@@ -8,20 +8,20 @@ function MainCard() {
 		<>
 			<div className="container card-container">
 				<div className="row">
-						<CardLeft />
-						<CardRight />
+					<CardLeft />
+					<CardRight />
 				</div>
 
 				<div className="row">
 					<div className="col-12 text-center">
-					Open-source code by{" "}
-				<a
-					href="https://github.com/fcff94"
-					target="_blank"
-					rel="noreferrer"
-				>
-					Carolina Freitas
-				</a>
+						Open-source code by{" "}
+						<a
+							href="https://github.com/fcff94"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Carolina Freitas
+						</a>
 					</div>
 				</div>
 			</div>

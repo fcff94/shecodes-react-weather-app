@@ -10,7 +10,7 @@ function CardRight() {
 	return (
 		<div className="col-12 col-lg-8 card-column card-right">
 			<nav>
-				<div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+				<div className="nav nav-tabs mb-4" id="nav-tab" role="tablist">
                <ButtonTab targetPane="city1" value="Lisbon" isActive />
                <ButtonTab targetPane="city2" value="Paris" isFavorite />
 				</div>
