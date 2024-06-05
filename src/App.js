@@ -1,6 +1,11 @@
-import MainCard from "./components/mainCard/MainCard";
+import MainCard from "./components/templates/mainCard/MainCard";
 import "./styles.css";
 
+
 export default function App() {
-  return <MainCard />;
+  return (
+  <>
+  <MainCard />
+  </>
+  );
 }

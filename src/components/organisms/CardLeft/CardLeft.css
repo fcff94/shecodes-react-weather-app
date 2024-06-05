@@ -1,0 +1,57 @@
+/* CARD LEFT */
+.card-left {
+    color: white;
+    background: var(--turquoise);
+    border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
+
+     /* .card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+       .search-area {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      } */
+}
+
+@media (min-width: 992px) {
+    .card-left {
+        border-radius: var(--card-border-radius) 0 0 var(--card-border-radius);
+    }
+}
+
+/* CL - WEATHER INFO */
+.card-left .weather-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .card-left .weather-info {
+    text-transform: capitalize;
+  }
+  
+  .card-content .weather-info .icon-weather-left .bi {
+    font-size: 100px;
+    color: var(--yellow);
+  }
+  
+  .card-content .weather-info .min-max-temp {
+    font-weight: 600;
+    color: var(--lightturquoise);
+  }
+  
+  .card-content .weather-info .bi-thermometer-low,
+  .card-content .weather-info .bi-thermometer-high {
+    color: var(--lightturquoise);
+    font-size: 18px;
+    margin-right: -5px;
+  }
+  

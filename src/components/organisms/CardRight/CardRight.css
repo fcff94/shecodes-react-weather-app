@@ -1,0 +1,19 @@
+/* CARD LEFT */
+.card-right {
+	background-color: white;
+	border-radius: 0 0 var(--card-border-radius) var(--card-border-radius);
+
+	nav {
+		margin-top: -10px;
+	}
+
+	.nav-tabs {
+		border-bottom: none !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.card-right {
+		border-radius: 0 var(--card-border-radius) var(--card-border-radius) 0;
+	}
+}
