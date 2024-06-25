@@ -13,6 +13,7 @@ export default function DateAndLocation(props) {
 					fontSizeClass="medium"
 					colorClass="white"
 					value="Monday, January 15th, 20:35"
+					customClass="mb-2"
 				/>
 				<Text
 					type="h2"
