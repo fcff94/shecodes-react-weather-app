@@ -22,7 +22,7 @@ export default function MinMaxTemperature(props) {
     // );
 	return (
 		<div className="row mt-5 justify-center">
-			<div className="col-3 justify-center">
+			<div className="col-2 col-lg-4 col-xl-3 justify-center">
 				<div className="align-center">
 					<Icon
 						iconName="ThermometerExterior"
@@ -38,7 +38,7 @@ export default function MinMaxTemperature(props) {
 					/>
 				</div>
 			</div>
-			<div className="col-3 justify-center">
+			<div className="col-2 col-lg-4 col-xl-3 justify-center">
 				<div className="align-center">
 					<Icon
 						iconName="Thermometer"

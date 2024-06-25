@@ -6,7 +6,7 @@ import Button from "../../atoms/Button/Button";
 
 export default function DisplayWeather(props) {
 	const temperatureValue = (
-		<Text type="h1" customClass="w500" value={17} fontSize="45"/>
+		<Text type="h1" customClass="w500" value={17} fontSize="45" />
 	);
 	const temperatureSymbol = (
 		<Text
@@ -28,7 +28,7 @@ export default function DisplayWeather(props) {
 	return (
 		<div>
 			<div className="row mt-5 align-center justify-center">
-				<div className="col-5 text-center ps-4">
+				<div className="col-12 col-sm-4 col-lg-5 col-xl-6 text-center p-0 ps-sm-4 mb-3 mb-sm-0">
 					<AnimatedIcon
 						icon="CLEAR_DAY"
 						color="#fcffc1"
@@ -36,22 +36,23 @@ export default function DisplayWeather(props) {
 						animate={true}
 					/>
 				</div>
-				<div className="col-6 pe-4">
-					<div className="d-flex justify-content-end mb-2">
-						<Button
-							type="button"
-							btnClass="secondary"
-							customClass="d-flex"
-							value={temperatureDisplay}
+				<div className="col-12 col-sm-4 col-lg-7 col-xl-6 justify-center p-0 pe-sm-4">
+					<div className="text-center text-sm-start">
+						<div className="mb-2">
+							<Button
+								type="button"
+								btnClass="secondary"
+								customClass="d-flex"
+								value={temperatureDisplay}
+							/>
+						</div>
+						<Text
+							type="h3"
+							value="Clear Day"
+							fontWeightClass="w400"
+							onClick={convertUnits}
 						/>
 					</div>
-					<Text
-						type="h3"
-						value="Clear Day"
-						fontWeightClass="w400"
-						customClass="d-flex justify-content-end"
-						onClick={convertUnits}
-					/>
 				</div>
 			</div>
 		</div>

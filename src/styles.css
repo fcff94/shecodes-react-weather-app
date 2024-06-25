@@ -13,11 +13,10 @@
 	--lightgrey: #f8f8f8;
 	--grey: #bababa;
 	--darkgrey: #9ba6a5;
-  
+
 	--turquoise-opacity-low: #bbded652;
 	--turquoise-opacity-high: #bbded678;
 	/* --turquoise-opacity-high: #bbded66e; */
-  
 
 	/* Button border color */
 	--border-white: #dee2e6;
@@ -32,84 +31,29 @@ body {
 }
 
 .align-center {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .justify-center {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .justify-start {
 	display: flex;
 	justify-content: flex-start;
-  }
-
-  .justify-end {
-	display: flex;
-	justify-content: flex-end;
-  }
-
-/* .weather-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
-/* .card-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 50px 0 20px 0;
-} */
-
-/* .card-weather {
-  width: 65vw;
-  border: none !important;
-  border-radius: 25px !important;
-} */
-
-/* .card-row {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-} */
-
-/* .card-row .card-column {
-  padding: 15px;
-} */
-
-/* CARD LEFT = CL */
-/* .card-row .card-left {
-  width: 35%;
-  color: white;
-  background: var(--turquoise);
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-} */
-
-
-
-/* CR - DAILY FORECAST */
-
-
-
-/* CR - DAILY AND WEEKLY FORECAST */
-.daily-slider .daily-slide .weather .bi,
-.weekly-card-body .weather .bi {
-	font-size: 25px;
-	color: var(--pink);
 }
 
-.daily-slider .icon-weather-hourly {
-	color: var(--pink);
+.justify-end {
+	display: flex;
+	justify-content: flex-end;
 }
 
 .card-content .last-update {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--lightturquoise);
-    font-size: 11px;
-  }
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--lightturquoise);
+	font-size: 11px;
+}

@@ -6,7 +6,7 @@ import "./DisplayWeatherExtras.css";
 export default function DisplayWeatherExtras(props) {
     // Use later 
 	// const WeatherExtraComponent = (props) => (
-	// 	<div className="align-center">
+	// 	<div className="align-center mb-2">
 	// 		<Icon iconName="Sunrise" colorClass="pink" customClass="me-1" />
 	// 		<Text
 	// 			type="p"
@@ -19,9 +19,9 @@ export default function DisplayWeatherExtras(props) {
 
 	return (
 		<div className="row weather-extras justify-center mt-5">
-			<div className="col-5 justify-center">
+			<div className="col-4 col-sm-3 col-lg-4 justify-center">
 				<div>
-					<div className="align-center">
+					<div className="align-center mb-2">
 						<Icon
 							iconName="Sunrise"
 							colorClass="pink"
@@ -35,7 +35,7 @@ export default function DisplayWeatherExtras(props) {
 						/>
 					</div>
 
-					<div className="align-center">
+					<div className="align-center mb-2">
 						<Icon
 							iconName="Raindrops"
 							colorClass="pink"
@@ -49,7 +49,7 @@ export default function DisplayWeatherExtras(props) {
 						/>
 					</div>
 
-					<div className="align-center">
+					<div className="align-center mb-2">
 						<Icon
 							iconName="StrongWind"
 							colorClass="pink"
@@ -65,9 +65,10 @@ export default function DisplayWeatherExtras(props) {
 				</div>
 			</div>
 
-			<div className="col-5 justify-center">
+			<div className="col-4 col-sm-3 col-lg-4 justify-center">
 				<div>
-					<div className="align-center">
+					
+					<div className="align-center mb-2">
 						<Icon
 							iconName="Sunset"
 							colorClass="pink"
@@ -81,7 +82,8 @@ export default function DisplayWeatherExtras(props) {
 						/>
 					</div>
 
-					<div className="align-center">
+					
+					<div className="align-center mb-2">
 						<Icon
 							iconName="Humidity"
 							colorClass="pink"
@@ -95,7 +97,8 @@ export default function DisplayWeatherExtras(props) {
 						/>
 					</div>
 
-					<div className="align-center">
+					
+					<div className="align-center mb-2">
 						<Icon
 							iconName="ThermometerInternal"
 							colorClass="pink"
