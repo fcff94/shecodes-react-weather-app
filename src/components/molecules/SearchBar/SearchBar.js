@@ -1,18 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../../atoms/Button/Button";
 import Input from "../../atoms/Input/Input";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function SearchBar() {
+function SearchBar({setCity}) {
+	const [inputValue, setInputValue] = useState(null);
 	const SearchIcon = (<FontAwesomeIcon icon="fa-magnifying-glass" />);
 	const LocationIcon = (<FontAwesomeIcon icon="fa-location-crosshairs" />);
 	// const LocationIcon = (<FontAwesomeIcon icon="fa-location-dot" />);
 
 	function getCurrentLocation() {}
 
-	function handleCity() {}
+	function handleSubmit(e) {
+		e.preventDefault();
+	}
 
-	function handleSubmit() {}
+	function handleCity(e) {
+		setInputValue(e.target.value);
+	}
+
+	function handleSearch() {
+		setCity(inputValue);
+	}
+
 
 	return (
 		<div className="row">
@@ -29,6 +39,7 @@ function SearchBar() {
 							btnClass="primary"
 							customClass="has-border"
 							value={SearchIcon}
+							onClick={handleSearch}
 							/>
 						<Button
 							type="button"

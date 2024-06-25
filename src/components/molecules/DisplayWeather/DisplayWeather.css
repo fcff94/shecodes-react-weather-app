@@ -1,0 +1,5 @@
+.displayWeather {
+    .capitalize {
+        text-transform: capitalize;;
+    }
+}

@@ -17,7 +17,7 @@ export default function Text(props) {
 				}`}
 			>
 				{props.value}
-				{props.symbol || ""}
+				{symbol || ""}
 			</TxtElement>
 		</>
 	);

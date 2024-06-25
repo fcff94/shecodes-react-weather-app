@@ -7,15 +7,16 @@ import MinMaxTemperature from "../../molecules/MinMaxTemperature/MinMaxTemperatu
 import "./CardLeft.css";
 import Text from "../../atoms/Text/Text";
 
-export default function CardLeft() {
+export default function CardLeft(props) {
+	console.log(props.data);
 	return (
 		<div className="col-12 col-lg-4 card-left card-column">
 			<div className="card-content">
-				<SearchBar />
-				<DateAndLocation />
-				<DisplayWeather />
-				<MinMaxTemperature/>
-				<DisplayWeatherExtras />
+				<SearchBar setCity={props.setCity} />
+				<DateAndLocation data={props.data} />
+				<DisplayWeather data={props.data} />
+				<MinMaxTemperature data={props.data}/>
+				<DisplayWeatherExtras data={props.data} />
 				
 				<Text 
 				type="p"
